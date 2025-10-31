@@ -297,7 +297,54 @@ footer {
     color: #00ffff;
     margin-bottom: 0.5rem;
 }
+.resume-section {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
 
+.resume-section .section-title {
+  font-size: 2rem;
+  color: #1F618D;
+  margin-bottom: 10px;
+}
+
+.resume-section .resume-intro {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.resume-content h3 {
+  font-size: 1.5rem;
+  color: #2E86C1;
+  margin-bottom: 5px;
+}
+
+.resume-content p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.resume-buttons {
+  margin-top: 20px;
+}
+
+.resume-buttons .btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #117A65;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.resume-buttons .btn:hover {
+  background-color: #0B5345;
+}
 .timeline-item p {
     color: #ccc;
 }
@@ -306,6 +353,7 @@ footer {
     background: #00ffff;
     color: #0a0a0a;
     transform: scale(1.03);
-}
+
 
 }
+
